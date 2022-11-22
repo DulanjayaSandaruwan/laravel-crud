@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/customer', function(){
     return customer::create([
-        'customerName' => 'aaaaa',
+        'customerName' => 'Dulan',
         'customerAddress' => 'Pimbura'
     ]);
 });
